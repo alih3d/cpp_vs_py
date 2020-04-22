@@ -63,6 +63,6 @@ int main(){
 // float operations
    cout << " 1 / 10  : " << 1/10 << endl;
    cout << " 1. / 10 : " << 1. / 10 << endl;
-   cout << "assert(1./10 == 1/10) : ";  assert(1./10 == 1/10);
+   cout << "assert(1./10 == float(1/10)) : ";  assert(1./10 == float(1/10));
   
 }
