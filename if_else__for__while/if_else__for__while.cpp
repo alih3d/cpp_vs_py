@@ -22,16 +22,17 @@ int main(){
 // while 
 int i = 0;
 
-while (i < x.size()){
-   std::cout << x[i];
-   ++i;
-   std::chrono::system_clock::time_point  start = std::chrono::system_clock::now();
-   
-   std::this_thread::sleep_for(std::chrono::seconds(1));  // not good for safety critical coding 
-   
-   std::chrono::system_clock::time_point finish = std::chrono::system_clock::now();
-   std::chrono::duration<double, std::milli>  diff = finish-start; 
-   std::cout << "_elapsed time: " << diff.count() << "    ";
+   while (i < x.size())
+   {
+      std::cout << x[i];
+      ++i;
+      std::chrono::system_clock::time_point  start = std::chrono::system_clock::now();
+      
+      std::this_thread::sleep_for(std::chrono::seconds(1));  // not good for safety critical coding 
+      
+      std::chrono::system_clock::time_point finish = std::chrono::system_clock::now();
+      std::chrono::duration<double, std::milli>  diff = finish-start; 
+      std::cout << "_elapsed time: " << diff.count() << "    ";
    }
   
 }
