@@ -2,7 +2,6 @@
 # if , elif, else
 import time
 
-
 x = '1000101110'
 
 if len(x) > 10 :
