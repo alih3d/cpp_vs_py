@@ -17,12 +17,7 @@ int main(){
    else
       std::cout << "x.size() is 10 or less" << std::endl;
 
-// for 
-   int j = 0;
-   for ( j ; j < 10 ; ++j){
-      std::cout << j  << " ";
-   }
- 
+
 
 // while 
 int i = 0;
