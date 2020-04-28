@@ -1,5 +1,5 @@
 
-// switch makes sense whem the number of choices is larger than 2
+// switch makes sense when the number of choices is larger than 2
 // other wise can use if / else if
 
 #include<iostream>
