@@ -12,7 +12,7 @@ def chosen_option(opt):
 
 
  
-x =int(input ("choose option 1, 2, or 3:  "))   # note y by default is of type
+x =int(input ("choose option 1, 2, or 3:  "))   # note x by default is of type
                                                 # string and must be converted
                                                 # to int to match the dict key.
 resp = chosen_option(x)
