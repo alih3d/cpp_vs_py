@@ -1,4 +1,5 @@
-# use switch if there are more than 3 options,
+# no switch -case in python but we can use a dictionary
+# use 'switch-case' if there are more than 3 options;
 # otherwise you can use if / elif / else
 
 def chosen_option(opt):
