@@ -3,9 +3,15 @@
 x = 5             # global scope
 
 def my_add(y=20): # y has local scope : not visible outside function
-   z=10           # local scope : not visible outside function   
-   return y+z
+   
+   global x # global variable accessable when the function is called
+   x = 39  
+   z=10           # local scope : not visible outside function  
+
+   return y+x+z
+
 print(x)
+
 #print(y)          # will return NameError that y is not defined
 #print(z)          # same as y
 
