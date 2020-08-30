@@ -39,7 +39,7 @@ int main () {
     melon.price = 2.50;
     std::cout << "the price of a melon is: " << melon.price << " Euros!\n";
     std::cout << "the color of the grapes is " << grapes.color << "\n";
-banana 
+
     // pointers & references
     fruit fruits;
     fruit *pfruit;
