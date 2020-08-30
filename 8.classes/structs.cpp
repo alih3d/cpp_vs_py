@@ -19,7 +19,7 @@ struct type_name{
 
 // structs require either type_name or object_name when defined 
 // below we define a structure of the type 'fruit' with 3 members
-struct fruit{
+struct fruit{ 
   std::string name;
   int weight;
   std::string color;
