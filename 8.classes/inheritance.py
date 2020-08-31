@@ -1,6 +1,8 @@
 # inheritance is used to define classes that inherit the properties
 # of another already defined class
 import Animals
+
+
 class Dog(Animals.Animal):
     
       def speak(self):
