@@ -12,8 +12,11 @@ dog = Dog(name='wolfie')
 print(f'{dog.name} says {dog.speak()}')
 
 
-
-dove = Animals.Birds(name='birdie')
+# dove object below inherits Birds properties which in turn inherits Animal properties
+dove = Animals.Birds(name='birdie')  
 
 dove.name
 dove.can_fly()
+
+chicken = Animals.Birds(name='cheekee', flies=0)
+chicken.can_fly()
