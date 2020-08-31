@@ -28,7 +28,7 @@ print(banana.price)
 
 class Animal:
 
-    def __init__(self, name, arms, legs):
+    def __init__(self, name=None, arms=None, legs=None):
         self.name = name
         self.arms = arms
         self.legs = legs
