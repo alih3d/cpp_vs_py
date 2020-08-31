@@ -29,7 +29,7 @@ class Circle(Shape):
       return 3.14 * self.__radius**2
 
 
-class Square(Rectangle):  # inherits Rectangle's properties and in turn Shape's
+class Square(Rectangle):        # inherits Rectangle's properties and in turn Shape's
     def __init__(self, side=None):
       super().__init__()
       self.__side = side
