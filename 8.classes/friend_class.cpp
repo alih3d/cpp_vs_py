@@ -20,7 +20,7 @@ class Rectangle{
 // friend class
 class Square{
   friend class Rectangle;   // friend class Rectangle will be able to access all Square's members 
-                            // but as seen above we didn#t declare Square as a friend of Rectangle
+                            // but as seen above we didn't declare Square as a friend of Rectangle
                             // Also  friend of a friend class is not a friend
   private:                 
     int side;
