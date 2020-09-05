@@ -1,4 +1,4 @@
-# a class is a blueprint of objects of the same kind
+# a class is a blueprint for objects of the same kind
 # objects of same class will have same attributes ( variables)
 # and same behaviours (methods).
 # variables and methods are the members of the class.
