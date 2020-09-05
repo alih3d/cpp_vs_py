@@ -15,6 +15,7 @@
 // class definition:
 
 class Rectangle{
+  private:
   int width=5, height=5;
 
   public:
@@ -30,7 +31,12 @@ Rectangle::Rectangle(int a, int b){
   height = b;
 }
 
-Rectangle::Rectangle() {}       // constructor overloading for use of default inputs
+// alternatively: 
+// Rectangle::Rectangle(int a, int b) : width(a) , height(b) {}
+
+
+// constructor overloading
+Rectangle::Rectangle() {}        // for use of default inputs
 
 
 // main function
