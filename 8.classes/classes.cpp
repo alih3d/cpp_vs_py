@@ -15,10 +15,10 @@
 // class definition:
 
 class Rectangle{
-  private:
+  private:              // by definition members are private
   int width=5, height=5;
 
-  public:
+  public:              // needs to be public to be readable by main() function
     Rectangle();           // TO USE DEFAULT VALUES
     Rectangle(int , int ); 
     int area() {return width * height;}
