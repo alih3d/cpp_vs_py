@@ -30,7 +30,7 @@ Rectangle::Rectangle(int a, int b){
   height = b;
 }
 
-Rectangle::Rectangle() {}
+Rectangle::Rectangle() {}       // constructor overloading for use of default inputs
 
 
 // main function
